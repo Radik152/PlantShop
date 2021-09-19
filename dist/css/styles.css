@@ -1317,3 +1317,95 @@ table {
       line-height: 16px;
       color: #2C1500;
       margin-top: 16px; }
+
+.featured {
+  margin-top: 80px; }
+  .featured .featured-header {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0; }
+    .featured .featured-header .featured-header-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000; }
+    .featured .featured-header .featured-header-select {
+      display: block;
+      padding: 8px 12px;
+      padding-right: 36px;
+      background: #FFFFFF;
+      border: 1px solid #E0E0E0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000;
+      outline: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("../../../../../images/Main/Featured/arrow-bottom.svg") no-repeat right;
+      background-position-x: calc(100% - 8px); }
+    .featured .featured-header .featured-header-select:focus {
+      border: 1px solid #156963; }
+
+.featured-cards {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px; }
+  .featured-cards .featured-card-box {
+    height: 281px;
+    width: 217px;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .featured-cards .featured-card-box .img-card-box {
+      width: 217px;
+      height: 217px;
+      background-color: #F3F4F6; }
+    .featured-cards .featured-card-box .box-1 {
+      background-image: url("../../../../../../images/Main/Featured/Featured-cards/1-card.png"); }
+    .featured-cards .featured-card-box .box-2 {
+      background-image: url("../../../../../../images/Main/Featured/Featured-cards/2-card.png"); }
+    .featured-cards .featured-card-box .box-3 {
+      background-image: url("../../../../../../images/Main/Featured/Featured-cards/3-card.png"); }
+    .featured-cards .featured-card-box .box-4 {
+      background-image: url("../../../../../../images/Main/Featured/Featured-cards/4-card.png"); }
+    .featured-cards .featured-card-box .box-5 {
+      background-image: url("../../../../../../images/Main/Featured/Featured-cards/5-card.png"); }
+    .featured-cards .featured-card-box .title-card-box {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-top: 16px; }
+    .featured-cards .featured-card-box .price-card-box {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-top: 8px; }
