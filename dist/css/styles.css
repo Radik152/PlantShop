@@ -1178,7 +1178,7 @@ table {
   display: grid;
   grid-template-columns: 45% 55%; }
   .main-content .main-content-left {
-    background-image: url("../../images/Main/bc-main.png"); }
+    background-image: url("../../images/Header-Main/bc-main.png"); }
   .main-content .main-content-right {
     display: flex;
     display: -webkit-box;
@@ -1268,3 +1268,52 @@ table {
           -webkit-transition: 1s;
           transition: 1s;
           color: #fff; }
+
+.container {
+  width: 1168px;
+  margin: 0 auto;
+  margin-top: 140px; }
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px; }
+  .advantages .advantage-box {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #E0E0E0;
+    padding: 16px 21px; }
+    .advantages .advantage-box .header-advantage-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .advantages .advantage-box .header-advantage-box .icon-advantage-box {
+        width: 48px;
+        height: 48px;
+        color: #156963;
+        fill: #156963; }
+      .advantages .advantage-box .header-advantage-box .title-advantage-box {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #156963;
+        width: 137px;
+        margin-left: 16px; }
+    .advantages .advantage-box .text-advantage-box {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 16px;
+      color: #2C1500;
+      margin-top: 16px; }
